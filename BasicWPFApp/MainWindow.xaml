@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <TextBlock 
+            Text="Welcome to the Inclusive Design Workshop!" 
+            HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30"
+            AutomationProperties.Name="Welcome to the Inclusive Design Workshop">
+        </TextBlock>
     </Grid>
 </Window>
